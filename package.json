@@ -1,0 +1,22 @@
+{
+  "name": "sos2425-13-sandbox",
+  "version": "1.0.0",
+  "description": "test apuntes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gti-sos/SOS2425-13-sandbox.git"
+  },
+  "author": "darlopvil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gti-sos/SOS2425-13-sandbox/issues"
+  },
+  "homepage": "https://github.com/gti-sos/SOS2425-13-sandbox#readme",
+  "dependencies": {
+    "cool-ascii-faces": "^1.3.4"
+  }
+}
