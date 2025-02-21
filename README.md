@@ -1,6 +1,3 @@
 # SOS2425-13-sandbox
 --------
-Grupo de prueba cambio en el readme.md
-
-
-Completo esto y listo
+Modificando el readme.md para la rama L04
