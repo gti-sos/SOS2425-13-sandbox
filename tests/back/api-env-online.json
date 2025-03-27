@@ -1,0 +1,15 @@
+{
+	"id": "1156c90c-fc58-416e-9c45-687d0c21c934",
+	"name": "online",
+	"values": [
+		{
+			"key": "BASE_URL",
+			"value": "https://sos2425-13-sandbox-darlopvil.onrender.com",
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2025-03-27T19:46:59.892Z",
+	"_postman_exported_using": "Postman/11.37.5"
+}
