@@ -1,5 +1,12 @@
-# SOS2425-13-sandbox - L06
+# SOS2425-13-sandbox - L06 + L06b
 --------
+## Cambios en el vídeo L06b:
+
+- [x]  Modificado el archivo "ci.yaml" a "ci-cd.yaml" para dar soporte a la integración con Render
+- [x]  Modificado el archivo "./public/index.js" para mostrar que se ha desplegado todo desde GA correctamente
+
+
+
 ## Cambios en la clase L06:
 
    - [x]  Actualizado el archivo "index.js" según la pasada clase L06
