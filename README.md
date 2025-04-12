@@ -29,4 +29,4 @@ Recuerda instalar los módulos de siempre si te dan fallos
 - [x]  2- npm run dev -- --open
    > (En la carpeta /src/front) para modificar solo el front "en vivo"
 - [x]  npm start
-     > (En la carpeta raíz de tu proyecto) para arrancar el servidor express+svelte
+     > (En la carpeta raíz de tu proyecto) para arrancar el servidor Express+Svelte
