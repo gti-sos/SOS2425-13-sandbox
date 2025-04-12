@@ -8,6 +8,7 @@
 - [x]  Integración total con Svelte (creada la carpeta src/front con un minimal svelte app)
 - [x]  Modificación del archivo index.js para importar Svelte
 - [x]  Modificación del package.json para integrar el lanzamiento del build de la app
+- [x]  Modificación del archivo ci-cd para GA incluyendo el build para Svelte
 
 
 ## Notas:
