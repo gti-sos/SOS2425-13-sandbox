@@ -1,0 +1,1 @@
+<a href="/about">Ir a la página de about</a>
