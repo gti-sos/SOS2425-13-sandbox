@@ -24,9 +24,9 @@ Recuerda instalar los módulos de siempre si te dan fallos
 
 - [x]   npm install
      > te instala el servidor tanto en la raíz (de la carpeta) como en la carpeta del front (solo la primera vez si hago un clone por ejemplo)
-1-  npm run build
+- [x]  1-  npm run build
    >(en el raíz de la carpeta)
-2- npm run dev -- --open
+- [x]  2- npm run dev -- --open
    > (En la carpeta /src/front) para modificar solo el front "en vivo"
 - [x]  npm start
      > (En la carpeta raíz de tu proyecto) para arrancar el servidor express+svelte
