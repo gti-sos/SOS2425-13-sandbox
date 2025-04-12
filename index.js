@@ -7,9 +7,12 @@ const app = express();
 const PORT = process.env.PORT || 16078;
 
 app.use(express.json());
+
+loadBackend(app) //Cargamos primero el backend para que esté disponible para el frontend
+
 app.use(handler); // Express usará este handler para servir la aplicación Svelte 
 
-loadBackend(app)
+
 
 app.listen(PORT,()=>{ 
     console.log(`Server running on port ${PORT}!`);
