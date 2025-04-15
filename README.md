@@ -2,12 +2,14 @@
 --------
 
 👉 RENDER: https://sos2425-13-sandbox-darlopvil.onrender.com/
+👉 SVELTESTRAP: https://sveltestrap.js.org/
 
 ## Cambios en el vídeo L08:
 
 - [x] Creado un atajo a `npm run dev -- --open` en package.json
 - [x] Modificado el Header.svelte
 - [x] instalado el paquete `cors`
+- [x] instalado el paquete de `sveltestrap`
 
 ## Troubleshooting:
 
@@ -27,6 +29,7 @@ Recuerda instalar los módulos de siempre si te dan fallos
 - [x]  NeDB con "npm install nedb -s"
 - [x]  start-server-and-run con "npm install start-server-and-test --save-dev"
 - [x] cors para permitir que un script llame a recursos en otro puerto: `npm install cors`
+- [x] Sveltestrap con `npm install svelte @sveltestrap/sveltestrap` en `src/front`
 
 ¿Modo dev o modo producción?
 

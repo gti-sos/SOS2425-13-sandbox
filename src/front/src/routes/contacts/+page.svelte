@@ -1,8 +1,18 @@
 <script>
     //@ts-nocheck
     //@ts-ignore
-    let API = 'http://localhost:16078/api/v1/contacts';
     import { onMount } from 'svelte';
+    import { Button, Table } from '@sveltestrap/sveltestrap'; 
+    import { dev } from '$app/environment'; // Importing the dev variable to check the environment
+
+    let DEVEL_HOST = 'http://localhost:16078';
+    let PROD_HOST = 'https://api.example.com/contacts'; // Replace with your production API URL
+    let API = "/api/v1/contacts"; // Default API URL
+    if(dev) {
+        API = DEVEL_HOST + API; // Use development host if in development mode
+    } else {
+        API = PROD_HOST; // Use production host if not in development mode
+    }
 
     let contacts = [];
     let result = "";
@@ -34,7 +44,7 @@
 
 <h2>Contact List</h2>
 
-<table>
+<Table hover>
     <thead>
         <tr>
             
@@ -53,4 +63,6 @@
             </tr>
         {/each}
     </tbody>
-</table>
+</Table>
+
+<Button color="primary">Primary</Button>
