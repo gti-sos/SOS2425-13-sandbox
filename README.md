@@ -6,6 +6,8 @@
 ## Cambios en el vídeo L08:
 
 - [x] Creado un atajo a `npm run dev -- --open` en package.json
+- [x] Modificado el Header.svelte
+- [x] instalado el paquete `cors`
 
 ## Troubleshooting:
 
@@ -24,15 +26,18 @@ Recuerda instalar los módulos de siempre si te dan fallos
 - [x]  Express con "npm install express -s"
 - [x]  NeDB con "npm install nedb -s"
 - [x]  start-server-and-run con "npm install start-server-and-test --save-dev"
+- [x] cors para permitir que un script llame a recursos en otro puerto: `npm install cors`
 
 ¿Modo dev o modo producción?
--> Modo dev:
+
+-> Modo dev: (lo dejamos para ver el front)
    - [x] npm start-front-dev
       > (En la carpeta /src/front) para modificar solo el front "en vivo"
+
 -> Modo producción:
    - [x]  1-  npm run build
       >(en el raíz de la carpeta)
-   - [x]  npm start
+   - [x]  npm start (lo dejamos para ver el back)
        > (En la carpeta raíz de tu proyecto) para arrancar el servidor Express+Svelte
 
 ## Comandos útiles:
