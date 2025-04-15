@@ -1,14 +1,11 @@
-# SOS2425-13-sandbox - L07
+# SOS2425-13-sandbox - L08
 --------
 
 👉 RENDER: https://sos2425-13-sandbox-darlopvil.onrender.com/
 
-## Cambios en el vídeo L07:
+## Cambios en el vídeo L08:
 
-- [x]  Integración total con Svelte (creada la carpeta src/front con un minimal svelte app)
-- [x]  Modificación del archivo index.js para importar Svelte
-- [x]  Modificación del package.json para integrar el lanzamiento del build de la app
-- [x]  Modificación del archivo ci-cd para GA incluyendo el build para Svelte
+- [x] Creado un atajo a `npm run dev -- --open` en package.json
 
 ## Troubleshooting:
 
@@ -28,8 +25,17 @@ Recuerda instalar los módulos de siempre si te dan fallos
 - [x]  NeDB con "npm install nedb -s"
 - [x]  start-server-and-run con "npm install start-server-and-test --save-dev"
 
+¿Modo dev o modo producción?
+-> Modo dev:
+   - [x] npm start-front-dev
+      > (En la carpeta /src/front) para modificar solo el front "en vivo"
+-> Modo producción:
+   - [x]  1-  npm run build
+      >(en el raíz de la carpeta)
+   - [x]  npm start
+       > (En la carpeta raíz de tu proyecto) para arrancar el servidor Express+Svelte
 
-## Nuevos comandos útiles:
+## Comandos útiles:
 
 
 - [x]  1-  npm run build
