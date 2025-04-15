@@ -14,12 +14,11 @@
 
 - [x] Si te aparece el error siguiente:
 >Error in svelte.config.js
-
 Error [ERR_MODULE_NOT_FOUND]: Cannot find package '@sveltejs/adapter-node' imported from c:\SOS2425\SOS2425-13-sandbox\src\front\svelte.config.js
 
 Basta con instalar el módulo que te pone en el directorio /src/front con:
 `npm install @sveltejs/adapter-node`
-
+ y luego reinicias VSCode
 
 
 ## Notas:
