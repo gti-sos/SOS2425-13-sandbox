@@ -60,6 +60,6 @@ Recuerda instalar los módulos de siempre si te dan fallos
 - [x] npm init playwright@latest
      > Instalar el paquete `playwright`
 - [x] npx playwright test  
-      > Hacer los tests 
+     > Hacer los tests 
 - [x] npx playwright show-report
-      > Ver los resultados en detalle de los tests
+     > Ver los resultados en detalle de los tests
