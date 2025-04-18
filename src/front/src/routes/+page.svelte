@@ -1,8 +1,5 @@
-<style>
-    h2 {
-        color: red;
-    }
-    </style>
+<svelte:head>
+  <title>Contact Manager</title>
+</svelte:head>
 
-<h2>Mi primera página con Svelte! desarrollada con Nodejs (v3)</h2>
-<p>¡Bienvenido a SvelteKit! Visita <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> para leer la documentación</p>
+Welcome to the Contact Manager! (v1)

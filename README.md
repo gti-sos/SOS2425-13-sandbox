@@ -1,16 +1,15 @@
-# SOS2425-13-sandbox - L08
+# SOS2425-13-sandbox - L09
 --------
 
 👉 RENDER: https://sos2425-13-sandbox-darlopvil.onrender.com/
 
 👉 SVELTESTRAP: https://sveltestrap.js.org/
 
-## Cambios en el vídeo L08:
+## Cambios en el vídeo L09:
 
-- [x] Creado un atajo a `npm run dev -- --open` en package.json
-- [x] Modificado el Header.svelte
-- [x] instalado el paquete `cors`
-- [x] instalado el paquete de `sveltestrap`
+- [x] Instalado el paquete `playwright`para las pruebas e2e
+- [x] Modificado el archivo `examples.spec.js` a `contacts.spec.js`para albergar todos los tests que se hagan a partir de ahora
+
 
 ## Troubleshooting:
 
@@ -26,11 +25,12 @@ Basta con instalar el módulo que te pone en el directorio /src/front con:
 ## Notas:
 
 Recuerda instalar los módulos de siempre si te dan fallos
-- [x]  Express con "npm install express -s"
-- [x]  NeDB con "npm install nedb -s"
-- [x]  start-server-and-run con "npm install start-server-and-test --save-dev"
+- [x] Express con "npm install express -s"
+- [x] NeDB con "npm install nedb -s"
+- [x] start-server-and-run con "npm install start-server-and-test --save-dev"
 - [x] cors para permitir que un script llame a recursos en otro puerto: `npm install cors`
 - [x] Sveltestrap con `npm install svelte @sveltestrap/sveltestrap` en `src/front`
+- [x] Puedes arrancar el server (back edition) desde VSCode (seleccionar index.js + Run without debugging). No olvidarse de hacer el `npm run build` antes para ver los cambios!
 
 ¿Modo dev o modo producción?
 
@@ -46,7 +46,6 @@ Recuerda instalar los módulos de siempre si te dan fallos
 
 ## Comandos útiles:
 
-
 - [x]  1-  npm run build
    >(en el raíz de la carpeta)
 - [x]  2- npm run dev -- --open
@@ -55,3 +54,12 @@ Recuerda instalar los módulos de siempre si te dan fallos
      > (En la carpeta raíz de tu proyecto) para arrancar el servidor Express+Svelte
 - [x]   npm install
      > te instala el servidor tanto en la raíz (de la carpeta) como en la carpeta del front (solo la primera vez si hago un clone por ejemplo)
+
+## Comandos de playwright:
+
+- [x] npm init playwright@latest
+     > Instalar el paquete `playwright`
+- [x] npx playwright test  
+      > Hacer los tests 
+- [x] npx playwright show-report
+      > Ver los resultados en detalle de los tests
