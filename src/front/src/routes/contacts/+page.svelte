@@ -111,7 +111,7 @@
 		</tr>
 		{#each contacts as contact}
 			<tr>
-				<td>{contact.name}</td>
+				<td><a href="/contacts/{contact.name}">{contact.name}</a></td>
 				<td>{contact.phone}</td>
 				<td>
 					<Button

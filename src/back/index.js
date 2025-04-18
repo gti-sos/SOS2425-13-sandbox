@@ -63,6 +63,19 @@ function loadBackend(app){
     });
         
 
+    app.get(BASE_API+"/contacts/:name",(request,response)=>{
+        let name = request.params.name;
+        console.log(`GET to /contacts/${name}`);
+       
+        db.find({name},(err, contacts)=>{
+           let contact = contacts[0];
+            delete contact._id;
+            response.json(contact);
+            
+        });
+    });
+
+
     app.delete(BASE_API+"/contacts/:name",(request,response)=>{
         
         
@@ -82,7 +95,22 @@ function loadBackend(app){
             });
         });
 
-    
+        app.put(BASE_API + "/contacts/:name", (request, response) => {
+            const name = request.params.name;
+            const updatedContact = request.body;
+            console.log(`PUT to /contacts/${name}`);
+        
+            db.update({ name: name }, { $set: updatedContact }, {}, (err, numReplaced) => {
+                if (err) {
+                    response.status(500).send("Error actualizando el contacto: " + err);
+                } else if (numReplaced === 0) {
+                    response.sendStatus(404); // No encontrado
+                } else {
+                    response.sendStatus(200); // OK
+                }
+            });
+        });
+        
     //Acceso a la documentacion de la API (en postman)
 
     app.get(BASE_API + "/docs",(request,response)=>{
