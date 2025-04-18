@@ -1,14 +1,17 @@
-# SOS2425-13-sandbox - L09
+# SOS2425-13-sandbox - L10
 --------
+##  ⚠️ ⚠️NO ES EL L10, SOLO SE INCLUYE LA PARTE QUE AFECTA AL D02 ⚠️ ⚠️
 
 👉 RENDER: https://sos2425-13-sandbox-darlopvil.onrender.com/
 
 👉 SVELTESTRAP: https://sveltestrap.js.org/
 
-## Cambios en el vídeo L09:
+## Cambios en el vídeo L10:
 
-- [x] Instalado el paquete `playwright`para las pruebas e2e
-- [x] Modificado el archivo `examples.spec.js` a `contacts.spec.js`para albergar todos los tests que se hagan a partir de ahora
+- [x] Modificado el archivo `/src/front/routes/contacts/+page.svelte`
+- [x] Modificado el archivo `src/back/index.js` para poder implementar esos cambios del .svelte del front
+- [x] Creación de la carpeta `../contacts/[name]` con su archivo para dar soporte a la edición fuera de los datos (D02)
+- [x] Mejoras varias aquí y allá porque Pablo no tenía el código bien y daba error al hacer un UPDATE al contact (D02)
 
 
 ## Troubleshooting:
