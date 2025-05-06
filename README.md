@@ -1,6 +1,5 @@
 # SOS2425-13-sandbox - L10
 --------
-##  ⚠️ ⚠️NO ES EL L10, SOLO SE INCLUYE LA PARTE QUE AFECTA AL D02 ⚠️ ⚠️
 
 👉 RENDER: https://sos2425-13-sandbox-darlopvil.onrender.com/
 
