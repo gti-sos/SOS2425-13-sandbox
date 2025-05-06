@@ -2,4 +2,4 @@
 <a href="/">Home</a>
 <a href="/contacts">Contacts</a>
 <a href="/graph">Graph</a>
-<a href="/api/v1/data">Data</a>
+<a href="http://localhost:16078/api/v1/data">Data</a>
